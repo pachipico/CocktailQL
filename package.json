@@ -1,0 +1,28 @@
+{
+	"name": "cocktailql",
+	"version": "1.0.0",
+	"description": "cocktail api using graphQL",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --exec babel-node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pachipico/CocktailQL.git"
+	},
+	"author": "JH Seo",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pachipico/CocktailQL/issues"
+	},
+	"homepage": "https://github.com/pachipico/CocktailQL#readme",
+	"dependencies": {
+		"@babel/cli": "^7.14.3",
+		"@babel/core": "^7.14.3",
+		"@babel/node": "^7.14.2",
+		"@babel/preset-env": "^7.14.2",
+		"axios": "^0.21.1",
+		"graphql-yoga": "^1.18.3"
+	}
+}
