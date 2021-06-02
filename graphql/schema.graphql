@@ -34,4 +34,8 @@ type Query {
 	getDrinksByCategory(category: String): [Drink]!
 	getDrinksByName(name: String): [Drink]!
 	getDrinksById(id: Int): [Drink]!
+	getRandomSelection: [Drink]!
+	getPopularDrinks: [Drink]!
+	getLatestDrinks: [Drink]!
+	getOneRandomDrink: [Drink]!
 }
